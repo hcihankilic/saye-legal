@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saye — Gizlilik Politikası</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #1c1c1e; line-height: 1.6; }
+    h1 { font-size: 28px; font-weight: 700; }
+    h2 { font-size: 18px; font-weight: 600; margin-top: 32px; }
+    p { font-size: 15px; color: #3a3a3c; }
+    ul { font-size: 15px; color: #3a3a3c; padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: #007AFF; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { font-size: 13px; color: #8e8e93; margin-top: 4px; }
+    footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #e5e5ea; font-size: 13px; color: #8e8e93; }
+  </style>
+</head>
+<body>
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta">Saye — İslami Rehber · Geçerlilik tarihi: Mayıs 2025</p>
+
+  <h2>1. Genel Bakış</h2>
+  <p>Saye uygulaması (bundan sonra "Saye" veya "uygulama"), kullanıcılarına namaz vakitleri, Kur'an-ı Kerim, zikir, dua ve kıble yönü gibi İslami rehber özellikleri sunan bir mobil uygulamadır. Bu gizlilik politikası, Saye'nin hangi verileri işlediğini ve nasıl koruduğunu açıklar.</p>
+  <p>Geliştirici: <strong>Cihan Kılıç</strong></p>
+
+  <h2>2. Topladığımız Veriler</h2>
+  <p>Saye, kişisel olarak tanımlanabilir hiçbir veri toplamaz, sunucularına göndermez ve üçüncü taraflarla paylaşmaz. Aşağıdaki veriler yalnızca cihazınızda kullanılır:</p>
+  <ul>
+    <li><strong>Konum:</strong> Namaz vakitleri ve kıble açısı hesaplaması için yalnızca uygulama açıkken erişilir. Konum bilgisi sunucularımıza gönderilmez. Konum izni isteğe bağlıdır; vermezseniz IP tabanlı şehir tahmini kullanılır (Aladhan API tarafından sağlanır).</li>
+    <li><strong>Bildirim izni:</strong> Namaz vakti hatırlatmaları için. Bildirimler tamamen yerel (cihaz üzerinde) zamanlanır; uzak sunucu bildirimi yoktur.</li>
+    <li><strong>Yerel ayarlar:</strong> Tercihleriniz (seçili qari, hatim ilerlemesi, dhikr sayacı, bildirim tercihleri) yalnızca cihazınızın yerel depolamasında saklanır. Cihazı sıfırlarsanız veya uygulamayı silerseniz bu veriler de silinir.</li>
+  </ul>
+
+  <h2>3. Saklanmayan Veriler</h2>
+  <p>Saye:</p>
+  <ul>
+    <li>Hesap oluşturma ya da kayıt gerektirmez.</li>
+    <li>İsim, e-posta, telefon numarası gibi kişisel bilgi istemez.</li>
+    <li>Kullanıcı analitiği veya davranış izleme yazılımı kullanmaz.</li>
+    <li>Reklam göstermez ve reklam SDK'sı içermez.</li>
+    <li>Verilerinizi hiçbir üçüncü taraf veri komisyoncusuyla paylaşmaz.</li>
+  </ul>
+
+  <h2>4. Üçüncü Taraf Servisler</h2>
+  <p>Saye, aşağıdaki üçüncü taraf servislere yalnızca anlık veri çekmek için bağlanır:</p>
+  <ul>
+    <li><strong>Aladhan API</strong> (<a href="https://aladhan.com/prayer-times-api">aladhan.com</a>): Namaz vakitleri ve IP tabanlı şehir tahmini. Saye, isteklerinde yalnızca konum bilgisi (enlem/boylam) ya da IP üzerinden gelen şehir gönderir; başka kişisel veri paylaşmaz.</li>
+    <li><strong>EveryAyah.com</strong> (<a href="https://everyayah.com">everyayah.com</a>): Kur'an ses dosyaları streaming ile sunulur. Yalnızca seçtiğiniz qari ve ayet için ses dosyası çekilir; kullanıcı kimliği gönderilmez.</li>
+    <li><strong>AçıkKuran API</strong> (<a href="https://acikkuran.com">acikkuran.com</a>): Kur'an meali ve transkripsiyonu için yalnızca sure numarası gönderilir.</li>
+  </ul>
+  <p>Bu servislerin kendi gizlilik politikaları geçerlidir. Saye, bu servislere giden istekleri kayıt altına almaz.</p>
+
+  <h2>5. Çocukların Gizliliği</h2>
+  <p>Saye, 13 yaşın altındaki kullanıcılardan bilerek veri toplamaz. Uygulama tüm yaş gruplarına yönelik dini içerik sunar; çocuklar ebeveyn gözetiminde kullanabilir.</p>
+
+  <h2>6. Veri Güvenliği</h2>
+  <p>Yerel olarak saklanan tercihler iOS'un standart UserDefaults ve App Group container'ı üzerinde tutulur; iOS sistem güvenliği koruması altındadır. Üçüncü taraf API çağrıları HTTPS üzerinden yapılır.</p>
+
+  <h2>7. Değişiklikler</h2>
+  <p>Bu politika, uygulamanın yeni sürümleriyle birlikte güncellenebilir. Önemli değişikliklerde uygulama içinde bilgilendirme yapılır.</p>
+
+  <h2>8. İletişim</h2>
+  <p>Gizlilik politikası ile ilgili soruların için uygulama içi geri bildirim formu üzerinden veya App Store geliştirici sayfasından ulaşabilirsin.</p>
+
+  <footer>
+    © 2025 Cihan Kılıç. Saye, kişisel ve dini kullanım için tasarlanmıştır.<br>
+    <a href="index.html">← Ana sayfa</a> · <a href="terms-of-use.html">Kullanım Koşulları</a>
+  </footer>
+</body>
+</html>
